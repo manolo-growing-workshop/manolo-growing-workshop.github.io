@@ -4,14 +4,14 @@ title: Home
 
 ## About
 
-Deep learning has scaled remarkably well, but the model sizes needed for state-of-the-art results are growing exponentially and outpacing hardware improvements {{< cite "thompson2021" "morand2025" >}}. Can we use parameters more efficiently?
+Deep learning has scaled remarkably well, but the model sizes needed for state-of-the-art results are growing exponentially and outpacing hardware improvements. Can we use parameters more efficiently?
 
 Almost all of the literature assumes a *fixed* architecture: choose a model, then train it. A rapidly growing body of work breaks that assumption and changes the trainable structure *during* optimization. Examples include:
 
-- growing neurons and layers {{< cite "evci2022" "verbockhaven2024" "maile2022" >}}
-- stacking and progressive scaling of transformers {{< cite "du2024" "saunshi2024" "yao2024" >}}
-- dynamic sparse training and prune-and-regrow schemes that rewire the network's topology as it learns {{< cite "mocanu2018" "evci2020" "dai2022" >}}
-- modular expansion for non-stationary tasks in continual and reinforcement learning {{< cite "yang2021" "liu2025" "kang2025" >}}
+- growing neurons and layers
+- stacking and progressive scaling of transformers
+- dynamic sparse training and prune-and-regrow schemes that rewire the network's topology as it learns
+- modular expansion for non-stationary tasks in continual and reinforcement learning
 
 In each case, capacity is decided during training rather than fixed in advance, so parameters are used only where and when they are useful.
 
@@ -43,7 +43,3 @@ The day features six invited talks, a poster session over lunch, and a closing p
 ## Organizers
 
 {{< people "organizers" >}}
-
-## Background reading
-
-{{< references >}}

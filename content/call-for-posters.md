@@ -17,7 +17,7 @@ In scope is any work that studies what happens to optimization when the trainabl
 
 Out of scope:
 
-- classical neural architecture search with independently trained candidates (unless the focus is transferring training state between candidates, as in DARTS {{< cite "liu2019" >}})
+- classical neural architecture search with independently trained candidates (unless the focus is transferring training state between candidates, as in DARTS)
 - input-dependent conditional computation, such as mixture-of-experts routing, without any structural change during training
 
 ## Format
