@@ -2,7 +2,7 @@
   <div class="logos">
     {{ range site.Data.logos }}
       {{ $item := cond (fileExists (printf "static/%s" .file))
-          (printf `<img src="%s" alt="%s">` (relURL .file) .name)
+          (printf `<img src="%s" alt="%s"%s>` (relURL .file) .name (cond (isset . "height") (printf ` style="height:%vpx"` .height) ""))
           (printf `<span class="logo-text">%s</span>` .name) }}
       {{ if .url }}<a href="{{ .url }}">{{ $item | safeHTML }}</a>{{ else }}{{ $item | safeHTML }}{{ end }}
     {{ end }}

@@ -140,7 +140,7 @@ table { border-collapse: collapse; width: 100%; }
 /* Footer */
 footer {
   border-top: 1px solid var(--rule);
-  background: var(--bg);
+  background: var(--band);
   padding: 32px 16px 40px;
   text-align: center;
   font-size: 0.85rem;

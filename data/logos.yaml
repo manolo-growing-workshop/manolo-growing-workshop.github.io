@@ -1,10 +1,12 @@
 # Footer logo strip. Put each file in static/img/. If a file is missing,
 # its name is shown as plain text instead, so the site never shows a broken image.
+# Optional height (px) overrides the default 44px, to balance logos visually.
 - name: MANOLO
   file: img/manolo.png
   url: https://manolo-project.eu/
 - name: Inria
   file: img/inria.svg
+  height: 30
   url: https://www.inria.fr/
 - name: Université Paris-Saclay
   file: img/paris-saclay.png
