@@ -1,16 +1,16 @@
 # Programme. type is "talk", "break" or omitted (other sessions).
 # For talks, "speaker" is a key in speakers.yaml (omit it for "to be announced"),
 # and "title" is the talk title once known.
-- time: "09:00"
+- time: "08:30"
   session: Registration and coffee
   type: break
-- time: "09:30"
+- time: "09:00"
   session: Welcome and introduction
   note: Organizers
-- time: "09:45"
+- time: "09:15"
   session: Invited talk
   type: talk
-- time: "10:15"
+- time: "10:00"
   session: Invited talk
   type: talk
   speaker: verbockhaven
@@ -20,23 +20,21 @@
 - time: "11:15"
   session: Invited talk
   type: talk
-- time: "11:45"
-  session: Invited talk
-  type: talk
   speaker: wolinski
-- time: "12:15"
+- time: "12:00"
   session: Lunch and poster session
-- time: "14:00"
+- time: "13:45"
   session: Invited talk
   type: talk
   speaker: maile
 - time: "14:30"
   session: Invited talk
   type: talk
-- time: "15:00"
+- time: "15:15"
   session: Coffee break
   type: break
-- time: "15:30"
+- time: "15:45"
   session: Panel and open discussion
-- time: "16:15"
-  session: Closing remarks
+- time: "16:30"
+  session: End
+  type: break

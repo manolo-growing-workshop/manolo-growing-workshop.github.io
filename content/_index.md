@@ -30,7 +30,7 @@ This line of work is split across the growth, sparse-training, continual-learnin
 
 It is also a deliberately frugal research direction, in line with the goals of the MANOLO project: progress comes from algorithmic insight rather than compute budget, which makes the area accessible to smaller labs priced out of large-scale deep learning.
 
-The day features six invited talks, a poster session over lunch, and a closing panel discussion. See the [programme]({{< relref "programme" >}}) and the [call for posters]({{< relref "call-for-posters" >}}).
+The day features five invited talks, a poster session over lunch, and a closing panel discussion. See the [programme]({{< relref "programme" >}}) and the [call for posters]({{< relref "call-for-posters" >}}).
 
 ## Important dates
 

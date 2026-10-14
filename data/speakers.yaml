@@ -1,6 +1,6 @@
 # Invited speakers, in display order. The key is used by schedule.yaml.
 # tba = number of speakers still to confirm, shown as "N more speakers, to be announced".
-tba: 3
+tba: 2
 people:
   - key: verbockhaven
     name: Manon Verbockhaven
