@@ -1,9 +1,9 @@
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="{{ "/" | relURL }}">
-      <img src="{{ "img/manolo.png" | relURL }}" alt="MANOLO" height="36">
-      <span>Growing Neural Networks</span>
+    <a class="brand-logo" href="{{ "/" | relURL }}">
+      <img src="{{ "img/manolo.png" | relURL }}" alt="MANOLO">
     </a>
+    <a class="brand-title" href="{{ "/" | relURL }}">Growing Neural Networks</a>
     <nav>
       {{ $current := . }}
       {{ range site.Menus.main }}
