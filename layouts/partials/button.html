@@ -1,0 +1,6 @@
+{{/* A call-to-action button. While the URL is "#" or empty it renders as a disabled "coming soon" button. */}}
+{{ if and .url (ne .url "#") }}
+  <a class="button" href="{{ .url }}">{{ .label }}</a>
+{{ else }}
+  <span class="button disabled" title="Link coming soon">{{ .label }} <small>(opens soon)</small></span>
+{{ end }}

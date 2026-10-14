@@ -1,0 +1,19 @@
+# Invited speakers, in display order. The key is used by schedule.yaml.
+# Unconfirmed speakers are shown as "To be announced" (count set by tba below).
+tba: 3
+people:
+  - key: verbockhaven
+    name: Manon Verbockhaven
+    affiliation: ENS Lyon
+    url: "https://mywebpage-public-f1a2e3.gitlab.io/"
+    topic: Expressivity bottlenecks and optimal growth of neural networks.
+  - key: wolinski
+    name: Pierre Wolinski
+    affiliation: Université Paris Dauphine–PSL
+    url: "https://pierre-wolinski.fr/"
+    topic: Neural network theory, initialization, pruning, regularization and second-order methods.
+  - key: maile
+    name: Kaitlin Maile
+    affiliation: Google
+    url: "https://scholar.google.com/citations?user=qL93rdIAAAAJ"
+    topic: When, where and how to add neurons during training; function-preserving expansion of transformers.

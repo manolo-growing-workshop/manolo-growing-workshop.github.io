@@ -1,0 +1,1 @@
+{{- range $i, $e := site.Params.contact }}{{ if $i }} or {{ end }}<a href="mailto:{{ $e }}">{{ $e }}</a>{{ end -}}

@@ -1,0 +1,7 @@
+{{- /* Inline citation: {{< cite "key1" "key2" >}} → (Author et al., 2022; …), linked to the paper or to the reading list. */ -}}
+{{- $refs := site.Data.references -}}
+({{ range $i, $key := .Params }}{{ if $i }}; {{ end }}
+  {{- with index (where $refs "key" $key) 0 -}}
+    <a href="{{ with .url }}{{ . }}{{ else }}{{ relref $.Page "/" }}#ref-{{ $key }}{{ end }}">{{ .short }}</a>
+  {{- else -}}{{ errorf "cite: unknown reference key %q in %s" $key $.Page.File.Path }}{{- end -}}
+{{- end }})

@@ -1,0 +1,19 @@
+<footer>
+  <div class="logos">
+    {{ range site.Data.logos }}
+      {{ $item := cond (fileExists (printf "static/%s" .file))
+          (printf `<img src="%s" alt="%s">` (relURL .file) .name)
+          (printf `<span class="logo-text">%s</span>` .name) }}
+      {{ if .url }}<a href="{{ .url }}">{{ $item | safeHTML }}</a>{{ else }}{{ $item | safeHTML }}{{ end }}
+    {{ end }}
+  </div>
+  <p>
+    Hosted by the Inria Tau team and LISN, Université Paris-Saclay.
+    Funded by the European Union through the <a href="https://manolo-project.eu/">MANOLO</a> project{{ with site.Params.grant_number }} (grant agreement No.&nbsp;{{ . }}){{ end }}.
+    Views and opinions expressed are those of the speakers and organizers only and do not necessarily reflect those of the European Union.
+  </p>
+  <p>
+    Contact:
+    {{ range $i, $e := site.Params.contact }}{{ if $i }}, {{ end }}<a href="mailto:{{ $e }}">{{ $e }}</a>{{ end }}
+  </p>
+</footer>

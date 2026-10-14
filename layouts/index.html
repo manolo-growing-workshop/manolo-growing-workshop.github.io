@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ site.Title }}</h1>
+  <p class="tagline">{{ site.Params.tagline }}</p>
+  <p class="when">{{ site.Params.date }}</p>
+  {{ with site.Params.date_note }}<p class="note">({{ . }})</p>{{ end }}
+  <p class="where">{{ site.Params.place }}</p>
+  <p class="actions">
+    {{ partial "button.html" (dict "url" site.Params.registration_url "label" "Register") }}
+    {{ partial "button.html" (dict "url" site.Params.submission_url "label" "Submit a poster abstract") }}
+  </p>
+</section>
+<article class="content">
+  {{ .Content }}
+</article>
+{{ end }}

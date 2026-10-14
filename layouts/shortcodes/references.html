@@ -1,0 +1,5 @@
+<ul class="references">
+  {{ range site.Data.references }}
+  <li id="ref-{{ .key }}">{{ .text | safeHTML }}{{ with .url }} <a href="{{ . }}">[link]</a>{{ end }}</li>
+  {{ end }}
+</ul>

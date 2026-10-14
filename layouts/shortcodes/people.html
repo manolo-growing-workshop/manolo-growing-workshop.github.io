@@ -1,0 +1,16 @@
+{{/* {{< people "speakers" >}} or {{< people "organizers" >}} */}}
+{{ $which := .Get 0 }}
+{{ $list := cond (eq $which "speakers") site.Data.speakers.people (index site.Data $which) }}
+<ul class="people">
+  {{ range $list }}
+  <li>
+    {{ partial "person.html" . }}
+    {{ with .topic }}<span class="topic">{{ . }}</span>{{ end }}
+  </li>
+  {{ end }}
+  {{ if eq $which "speakers" }}
+    {{ range seq (site.Data.speakers.tba | default 0) }}
+    <li class="muted">To be announced</li>
+    {{ end }}
+  {{ end }}
+</ul>

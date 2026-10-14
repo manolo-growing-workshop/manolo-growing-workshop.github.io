@@ -1,0 +1,14 @@
+# Footer logo strip. Put each file in static/img/. If a file is missing,
+# its name is shown as text instead, so the site never shows a broken image.
+- name: Funded by the European Union
+  file: img/eu-funded.png
+  url: ""
+- name: MANOLO
+  file: img/manolo.png
+  url: https://manolo-project.eu/
+- name: Inria
+  file: img/inria.png
+  url: https://www.inria.fr/
+- name: LISN, Université Paris-Saclay
+  file: img/lisn.png
+  url: https://www.lisn.upsaclay.fr/

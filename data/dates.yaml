@@ -1,0 +1,14 @@
+# Important dates, shown on Home and Call for posters.
+# Set tentative: false once a date is fixed.
+- label: Poster abstract deadline
+  date: 6 November 2026
+  tentative: true
+- label: Notification of acceptance
+  date: 16 November 2026
+  tentative: true
+- label: Registration closes
+  date: 30 November 2026
+  tentative: true
+- label: Workshop
+  date: 7 or 8 December 2026
+  tentative: true

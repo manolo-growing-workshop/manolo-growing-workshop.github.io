@@ -1,0 +1,62 @@
+# Background reading. Cite inline in Markdown with {{< cite "key" >}}
+# (or {{< cite "key1" "key2" >}}). "short" is the inline text.
+- key: dai2022
+  short: Dai et al., 2022
+  text: "Xiaoliang Dai, Hongxu Yin, and Niraj K. Jha. Incremental learning using a grow-and-prune paradigm with efficient neural networks. <em>IEEE Transactions on Emerging Topics in Computing</em>, 2022."
+  url: "https://doi.org/10.1109/TETC.2020.3037052"
+- key: du2024
+  short: Du et al., 2024
+  text: "Wenyu Du, Tongxu Luo, Zihan Qiu, Zeyu Huang, Yikang Shen, Reynold Cheng, Yike Wang, and Jing Shang. Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training. In <em>NeurIPS</em>, 2024."
+  url: "https://arxiv.org/abs/2405.15319"
+- key: evci2020
+  short: Evci et al., 2020
+  text: "Utku Evci, Trevor Gale, Jacob Menick, Pablo Samuel Castro, and Erich Elsen. Rigging the lottery: Making all tickets winners. In <em>ICML</em>, 2020."
+  url: "https://arxiv.org/abs/1911.11134"
+- key: evci2022
+  short: Evci et al., 2022
+  text: "Utku Evci, Bart van Merriënboer, Thomas Unterthiner, Max Vladymyrov, and Fabian Pedregosa. GradMax: Growing Neural Networks using Gradient Information. In <em>ICLR</em>, 2022."
+  url: "https://arxiv.org/abs/2201.05125"
+- key: kang2025
+  short: Kang et al., 2025
+  text: "Zilin Kang, Chenyuan Hu, Yu Luo, Zhecheng Yuan, Ruijie Zheng, and Huazhe Xu. A forget-and-grow strategy for deep reinforcement learning scaling in continuous control. In <em>ICML</em>, 2025."
+  url: "https://arxiv.org/abs/2507.02712"
+- key: liu2019
+  short: Liu et al., 2019
+  text: "Hanxiao Liu, Karen Simonyan, and Yiming Yang. DARTS: Differentiable Architecture Search. In <em>ICLR</em>, 2019."
+  url: "https://arxiv.org/abs/1806.09055"
+- key: liu2025
+  short: Liu et al., 2025
+  text: "Jiashun Liu, Johan Samir Obando Ceron, Aaron Courville, and Ling Pan. Neuroplastic expansion in deep reinforcement learning. In <em>ICLR</em>, 2025."
+  url: "https://arxiv.org/abs/2410.07994"
+- key: maile2022
+  short: Maile et al., 2022
+  text: "Kaitlin Maile, Emmanuel Rachelson, Hervé Luga, and Dennis George Wilson. When, where, and how to add new neurons to ANNs. In <em>Proceedings of the First International Conference on Automated Machine Learning</em>. PMLR, 2022."
+  url: "https://arxiv.org/abs/2202.08539"
+- key: mocanu2018
+  short: Mocanu et al., 2018
+  text: "Decebal Constantin Mocanu, Elena Mocanu, Peter Stone, Phuong H. Nguyen, Madeleine Gibescu, and Antonio Liotta. Scalable training of artificial neural networks with adaptive sparse connectivity inspired by network science. <em>Nature Communications</em>, 9:2383, 2018."
+  url: "https://doi.org/10.1038/s41467-018-04316-3"
+- key: morand2025
+  short: Morand et al., 2025
+  text: "Clément Morand, Anne-Laure Ligozat, and Aurélie Névéol. The Environmental Impacts of Machine Learning Training Keep Rising Evidencing Rebound Effect, 2025."
+  url: "https://arxiv.org/abs/2510.09022v1"
+- key: saunshi2024
+  short: Saunshi et al., 2024
+  text: "Nikunj Saunshi, Stefani Karp, Shankar Krishnan, Sobhan Miryoosefi, Sashank J. Reddi, and Sanjiv Kumar. On the inductive bias of stacking towards improving reasoning. In <em>NeurIPS</em>, 2024."
+  url: "https://arxiv.org/abs/2409.19044"
+- key: thompson2021
+  short: Thompson et al., 2021
+  text: "Neil C. Thompson, Kristjan Greenewald, Keeheon Lee, and Gabriel F. Manso. Deep Learning's Diminishing Returns: The Cost of Improvement is Becoming Unsustainable. <em>IEEE Spectrum</em>, 2021."
+  url: "https://spectrum.ieee.org/deep-learning-computational-cost"
+- key: verbockhaven2024
+  short: Verbockhaven et al., 2024
+  text: "Manon Verbockhaven, Théo Rudkiewicz, Sylvain Chevallier, and Guillaume Charpiat. Growing Tiny Networks: Spotting Expressivity Bottlenecks and Fixing Them Optimally. <em>TMLR</em>, 2024."
+  url: "https://openreview.net/forum?id=hbtG6s6e7r"
+- key: yang2021
+  short: Yang et al., 2021
+  text: "Li Yang, Sen Lin, Junshan Zhang, and Deliang Fan. GROWN: Grow only when necessary for continual learning. arXiv:2110.00908, 2021."
+  url: "https://arxiv.org/abs/2110.00908"
+- key: yao2024
+  short: Yao et al., 2024
+  text: "Yiqun Yao, Zheng Zhang, Jing Li, and Yequan Wang. Masked Structural Growth for 2x Faster Language Model Pre-training. In <em>ICLR</em>, 2024."
+  url: "https://arxiv.org/abs/2305.02869"

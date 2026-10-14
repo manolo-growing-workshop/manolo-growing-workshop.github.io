@@ -1,0 +1,20 @@
+{{ $speakers := site.Data.speakers.people }}
+<table class="schedule">
+  {{ range site.Data.schedule }}
+  <tr{{ if eq .type "break" }} class="break"{{ end }}>
+    <td class="time">{{ .time }}</td>
+    <td>
+      {{ .session }}
+      {{ if eq .type "talk" }}
+        {{ with .speaker }}
+          {{ with index (where $speakers "key" .) 0 }}<div class="speaker">{{ partial "person.html" . }}</div>{{ end }}
+        {{ else }}
+          <div class="speaker muted">Speaker to be announced</div>
+        {{ end }}
+      {{ end }}
+      {{ with .title }}<div class="talk-title">{{ . }}</div>{{ end }}
+      {{ with .note }}<div class="muted">{{ . }}</div>{{ end }}
+    </td>
+  </tr>
+  {{ end }}
+</table>

@@ -1,0 +1,8 @@
+<table class="dates">
+  {{ range site.Data.dates }}
+  <tr>
+    <th scope="row">{{ .label }}</th>
+    <td>{{ .date }}{{ if .tentative }} <span class="muted">(tentative)</span>{{ end }}</td>
+  </tr>
+  {{ end }}
+</table>
