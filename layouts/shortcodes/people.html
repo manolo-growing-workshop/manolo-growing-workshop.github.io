@@ -8,9 +8,9 @@
     {{ with .topic }}<span class="topic">{{ . }}</span>{{ end }}
   </li>
   {{ end }}
-  {{ if eq $which "speakers" }}
-    {{ range seq (site.Data.speakers.tba | default 0) }}
-    <li class="muted">To be announced</li>
-    {{ end }}
-  {{ end }}
 </ul>
+{{ if eq $which "speakers" }}
+  {{ with site.Data.speakers.tba }}
+  <p class="muted">{{ . }} more speaker{{ if gt . 1 }}s{{ end }}, to be announced.</p>
+  {{ end }}
+{{ end }}

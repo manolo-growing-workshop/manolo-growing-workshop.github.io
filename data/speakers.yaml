@@ -1,5 +1,5 @@
 # Invited speakers, in display order. The key is used by schedule.yaml.
-# Unconfirmed speakers are shown as "To be announced" (count set by tba below).
+# tba = number of speakers still to confirm, shown as "N more speakers, to be announced".
 tba: 3
 people:
   - key: verbockhaven

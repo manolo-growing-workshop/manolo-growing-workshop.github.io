@@ -124,7 +124,7 @@ a:hover { text-decoration-thickness: 2px; }
 /* Tables */
 table { border-collapse: collapse; width: 100%; }
 .dates th, .dates td { text-align: left; vertical-align: top; padding: 4px 12px 4px 0; }
-.schedule td { text-align: left; vertical-align: top; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--rule); }
+.schedule td { text-align: left; vertical-align: top; padding: 7px 12px 7px 0; }
 .dates th { font-weight: 500; width: 55%; }
 .schedule .time { width: 5.5em; font-variant-numeric: tabular-nums; color: var(--muted); }
 .schedule tr.break td { color: var(--muted); font-style: italic; }
