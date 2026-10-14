@@ -8,17 +8,17 @@ We invite one-page abstracts for poster presentation on any topic within the sco
 
 In scope is any work that studies what happens to optimization when the trainable architecture or sparse topology changes during training. Examples include:
 
-- growing neurons, layers or whole blocks during training
-- stacking and progressive scaling of transformers
-- dynamic sparse training and prune-and-regrow methods
-- modular or capacity expansion in continual and reinforcement learning
-- transferring parameters, optimizer state and normalization statistics across structural changes
-- deciding when and where to grow, and measuring the quality of a growth transition
+- Growing neurons, layers or whole blocks during training
+- Stacking and progressive scaling of transformers
+- Dynamic sparse training and prune-and-regrow methods
+- Modular or capacity expansion in continual and reinforcement learning
+- Transferring parameters, optimizer state and normalization statistics across structural changes
+- Deciding when and where to grow, and measuring the quality of a growth transition
 
 Out of scope:
 
-- classical neural architecture search with independently trained candidates (unless the focus is transferring training state between candidates, as in DARTS)
-- input-dependent conditional computation, such as mixture-of-experts routing, without any structural change during training
+- Classical neural architecture search with independently trained candidates (unless the focus is transferring training state between candidates, as in DARTS)
+- Input-dependent conditional computation, such as mixture-of-experts routing, without any structural change during training
 
 ## Format
 

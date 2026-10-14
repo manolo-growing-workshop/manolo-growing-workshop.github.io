@@ -8,10 +8,10 @@ Deep learning has scaled remarkably well, but the model sizes needed for state-o
 
 Almost all of the literature assumes a *fixed* architecture: choose a model, then train it. A rapidly growing body of work breaks that assumption and changes the trainable structure *during* optimization. Examples include:
 
-- growing neurons and layers
-- stacking and progressive scaling of transformers
-- dynamic sparse training and prune-and-regrow schemes that rewire the network's topology as it learns
-- modular expansion for non-stationary tasks in continual and reinforcement learning
+- Growing neurons and layers
+- Stacking and progressive scaling of transformers
+- Dynamic sparse training and prune-and-regrow schemes that rewire the network's topology as it learns
+- Modular expansion for non-stationary tasks in continual and reinforcement learning
 
 In each case, capacity is decided during training rather than fixed in advance, so parameters are used only where and when they are useful.
 
