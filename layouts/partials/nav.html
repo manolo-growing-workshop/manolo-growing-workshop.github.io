@@ -1,13 +1,13 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand-logo" href="{{ "/" | relURL }}">
-      <img src="{{ "img/manolo.png" | relURL }}" alt="MANOLO">
+      <img src="{{ "img/manolo-header.png" | relURL }}" alt="MANOLO">
     </a>
     <a class="brand-title" href="{{ "/" | relURL }}">Growing Neural Networks</a>
     <nav>
       {{ $current := . }}
       {{ range site.Menus.main }}
-        <a href="{{ .URL }}"{{ if $current.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        <a href="{{ .URL }}"{{ if eq $current.RelPermalink .URL }} aria-current="page"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
   </div>
