@@ -16,8 +16,8 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   place = "Inria Paris"
 
   # Replace "#" with the real form URLs when they exist; the buttons then go live.
-  registration_url = "#"
-  submission_url = "#"
+  registration_url = "https://framaforms.org/registration-manolo-workshop-on-growing-neural-networks-1791993366"
+  submission_url = "https://framaforms.org/poster-abstract-manolo-workshop-on-growing-neural-networks-1791995101"
 
   contact = ["manolo-growing-workshop@protonmail.com"]
 
