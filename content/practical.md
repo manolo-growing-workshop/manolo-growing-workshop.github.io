@@ -1,5 +1,5 @@
 ---
-title: Practical information
+title: Practical info
 ---
 
 ## Date and venue

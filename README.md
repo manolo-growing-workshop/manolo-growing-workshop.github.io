@@ -23,8 +23,8 @@ To add a confirmed speaker, add them to `data/speakers.yaml` and lower `tba` by 
 
 In page text, cite a reference with `{{< cite "evci2022" >}}` (keys come from `data/references.yaml`).
 
-Logos: drop `eu-funded.png` (the official "Funded by the European Union" emblem), `inria.png` and
-`lisn.png` into `static/img/`. Until a file exists, its name is shown as text instead.
+Footer logos are listed in `data/logos.yaml`, with image files in `static/img/`. If a file is missing,
+its name is shown as plain text instead.
 
 ## Preview locally
 

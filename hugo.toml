@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   registration_url = "#"
   submission_url = "#"
 
-  contact = ["alex.davey@inria.fr", "stephane.a.rivaud@inria.fr"]
+  contact = ["manolo-growing-workshop@gmail.com"]
 
   # Horizon Europe grant agreement number for the EU funding statement in the footer.
   grant_number = "101135782"
@@ -38,6 +38,6 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
     pageRef = "/call-for-posters"
     weight = 3
   [[menus.main]]
-    name = "Practical information"
+    name = "Practical info"
     pageRef = "/practical"
     weight = 4

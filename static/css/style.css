@@ -140,7 +140,7 @@ table { border-collapse: collapse; width: 100%; }
 /* Footer */
 footer {
   border-top: 1px solid var(--rule);
-  background: var(--band);
+  background: var(--bg);
   padding: 32px 16px 40px;
   text-align: center;
   font-size: 0.85rem;
@@ -149,7 +149,7 @@ footer {
 footer p { max-width: 720px; margin: 8px auto; }
 .logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px 36px; margin-bottom: 20px; }
 .logos img { height: 44px; width: auto; display: block; }
-.logo-text { border: 1px dashed var(--rule); padding: 8px 12px; border-radius: 4px; }
+.logo-text { font-weight: 500; }
 
 @media (max-width: 600px) {
   body { font-size: 16px; }
