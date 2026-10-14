@@ -127,7 +127,8 @@ table { border-collapse: collapse; width: 100%; }
 .schedule td { text-align: left; vertical-align: top; padding: 7px 12px 7px 0; }
 .dates th { font-weight: 500; width: 55%; }
 .schedule .time { width: 5.5em; font-variant-numeric: tabular-nums; color: var(--muted); }
-.schedule tr.break td { color: var(--muted); font-style: italic; }
+.schedule tr.break td { color: var(--muted); }
+.schedule tr.break td:not(.time) { font-style: italic; }
 .schedule .speaker { font-weight: 600; }
 .schedule .speaker.muted { font-weight: 400; font-style: italic; }
 .schedule .talk-title { font-style: italic; }
