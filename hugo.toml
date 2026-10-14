@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   registration_url = "#"
   submission_url = "#"
 
-  contact = ["manolo-growing-workshop@gmail.com"]
+  contact = ["manolo-growing-workshop@protonmail.com"]
 
   # Horizon Europe grant agreement number for the EU funding statement in the footer.
   grant_number = "101135782"
