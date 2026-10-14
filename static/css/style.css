@@ -23,7 +23,7 @@ body {
 a { color: var(--accent); text-underline-offset: 2px; }
 a:hover { text-decoration-thickness: 2px; }
 
-/* Top bar: logo left, menu right, title centred in the space between them.
+/* Top bar: logo and title on the left, menu on the right.
    On narrow screens the menu moves to a second row. */
 .topbar { border-bottom: 1px solid var(--rule); }
 .topbar-inner {
@@ -32,13 +32,13 @@ a:hover { text-decoration-thickness: 2px; }
   grid-template-columns: auto 1fr auto;
   grid-template-areas: "logo title nav";
   align-items: center;
-  gap: 8px 24px;
+  gap: 8px 20px;  /* column gap = space between logo and title */
 }
 .brand-logo { grid-area: logo; justify-self: start; }
-.brand-logo img { height: 36px; width: auto; display: block; }
+.brand-logo img { height: 48px; width: auto; display: block; }
 .brand-title {
   grid-area: title;
-  justify-self: center;
+  justify-self: start;
   color: var(--text);
   text-decoration: none;
   font-weight: 600;
@@ -162,8 +162,7 @@ footer p { max-width: 720px; margin: 8px auto; }
 
 @media (max-width: 600px) {
   body { font-size: 16px; }
-  .topbar-inner { column-gap: 8px; }
-  .brand-logo img { height: 28px; }
+  .brand-logo img { height: 38px; }
   .brand-title { font-size: 0.95rem; }
   .topbar nav { gap: 4px 14px; }
   .topbar nav a { font-size: 0.85rem; }
