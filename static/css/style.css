@@ -23,12 +23,13 @@ body {
 a { color: var(--accent); text-underline-offset: 2px; }
 a:hover { text-decoration-thickness: 2px; }
 
-/* Top bar: logo left, title centred, menu right. On narrower screens the menu moves to a second row. */
+/* Top bar: logo left, menu right, title centred in the space between them.
+   On narrow screens the menu moves to a second row. */
 .topbar { border-bottom: 1px solid var(--rule); }
 .topbar-inner {
   padding: 10px 24px;
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: auto 1fr auto;
   grid-template-areas: "logo title nav";
   align-items: center;
   gap: 8px 24px;
@@ -37,6 +38,7 @@ a:hover { text-decoration-thickness: 2px; }
 .brand-logo img { height: 36px; width: auto; display: block; }
 .brand-title {
   grid-area: title;
+  justify-self: center;
   color: var(--text);
   text-decoration: none;
   font-weight: 600;
@@ -57,8 +59,8 @@ a:hover { text-decoration-thickness: 2px; }
 .topbar nav a:hover,
 .topbar nav a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
 
-@media (max-width: 1180px) {
-  .topbar-inner { grid-template-areas: "logo title ." "nav nav nav"; padding: 10px 16px 0; row-gap: 4px; }
+@media (max-width: 780px) {
+  .topbar-inner { grid-template-areas: "logo title" "nav nav"; grid-template-columns: auto 1fr; padding: 10px 16px 0; row-gap: 4px; }
   .topbar nav { justify-self: center; }
   .topbar nav a { padding: 6px 0 8px; }
 }
