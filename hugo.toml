@@ -24,6 +24,10 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   # Horizon Europe grant agreement number for the EU funding statement in the footer.
   grant_number = "101135782"
 
+  # GoatCounter site code (the "xxx" in https://xxx.goatcounter.com) for cookieless visitor counts.
+  # Leave empty to disable. Only loaded in production builds, so local previews aren't counted.
+  goatcounter = "manolo-growing-workshop"
+
 [menus]
   [[menus.main]]
     name = "Home"

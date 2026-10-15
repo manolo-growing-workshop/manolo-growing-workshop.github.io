@@ -7,6 +7,9 @@
   <meta name="description" content="{{ site.Params.description }}">
   <link rel="icon" href="{{ "img/favicon.png" | relURL }}">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{ if hugo.IsProduction }}{{ with site.Params.goatcounter }}
+  <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {{ end }}{{ end }}
 </head>
 <body>
   {{ partial "nav.html" . }}
