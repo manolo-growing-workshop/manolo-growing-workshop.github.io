@@ -1,6 +1,6 @@
 # Invited speakers, in display order. The key is used by schedule.yaml.
 # tba = number of speakers still to confirm, shown as "N more speakers, to be announced".
-tba: 2
+tba: 1
 people:
   - key: verbockhaven
     name: Manon Verbockhaven
@@ -17,3 +17,8 @@ people:
     affiliation: Google
     url: "https://scholar.google.com/citations?user=qL93rdIAAAAJ"
     topic: When, where and how to add neurons during training; function-preserving expansion of transformers.
+  - key: mitchell
+    name: Rupert Mitchell
+    affiliation: TU Darmstadt
+    url: "https://www.aiml.informatik.tu-darmstadt.de/people/rmitchell/index.html"
+    topic: Growing the width and depth of neural networks during training as capacity becomes necessary.

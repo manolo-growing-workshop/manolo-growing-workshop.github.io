@@ -30,6 +30,7 @@
 - time: "14:30"
   session: Invited talk
   type: talk
+  speaker: mitchell
 - time: "15:15"
   session: Coffee break
   type: break
