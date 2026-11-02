@@ -14,14 +14,11 @@ Most updates are one-line edits to a data file. You don't need to touch the temp
 | Programme / schedule                         | `data/schedule.yaml`                   |
 | Invited speakers (and number still TBA)      | `data/speakers.yaml`                   |
 | Organizers                                   | `data/organizers.yaml`                 |
-| Background reading                           | `data/references.yaml`                 |
 | Footer logos                                 | `data/logos.yaml` + image files in `static/img/` |
 | Page text                                    | `content/*.md`                         |
 
 To add a confirmed speaker, add them to `data/speakers.yaml` and lower `tba` by one. Then set
 `speaker: <key>` on their slot in `data/schedule.yaml`.
-
-In page text, cite a reference with `{{< cite "evci2022" >}}` (keys come from `data/references.yaml`).
 
 Footer logos are listed in `data/logos.yaml`, with image files in `static/img/`. If a file is missing,
 its name is shown as plain text instead.

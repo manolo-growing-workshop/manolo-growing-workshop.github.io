@@ -141,12 +141,6 @@ table { border-collapse: collapse; width: 100%; }
 .schedule .affiliation { display: inline; margin-left: 6px; }
 .schedule .affiliation::before { content: "· "; }
 
-/* References */
-.references { font-size: 0.92rem; list-style: none; padding-left: 1.4em !important; }
-.references li { text-indent: -1.4em; }
-.references li { margin: 6px 0; }
-.references li:target { background: var(--band); outline: 4px solid var(--band); }
-
 /* Footer */
 footer {
   border-top: 1px solid var(--rule);

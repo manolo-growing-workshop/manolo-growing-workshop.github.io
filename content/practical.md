@@ -4,8 +4,20 @@ title: Practical info
 
 ## Date and venue
 
-**{{< param date >}}** ({{< param date_note >}})<br>
-Inria Paris centre, Paris, France. Address and room to be announced.
+**{{< param date >}}**<br>
+Université Paris Dauphine-PSL<br>
+Place du Maréchal de Lattre de Tassigny, 75016 Paris, France<br>
+Room to be announced.
+
+## Getting there
+
+The campus is at Porte Dauphine, on the western edge of central Paris.
+
+- **Metro:** line 2, Porte Dauphine station.
+- **RER:** line C, Avenue Foch station.
+- **Tram and bus:** tram T3b and bus PC, Porte Dauphine stop.
+
+Plan your journey with the [RATP journey planner](https://www.ratp.fr/en/itineraires).
 
 ## Format
 
@@ -13,7 +25,7 @@ A full day, in person. Talks will be recorded and made available after the works
 
 ## Registration
 
-Registration is **free but required**: places are limited to about 80, and catering is provided.
+Registration is **free but required**: places are limited to 50, and catering is provided.
 
 <p class="actions">{{< register >}}</p>
 
