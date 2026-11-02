@@ -5,19 +5,7 @@ title: Practical info
 ## Date and venue
 
 **{{< param date >}}**<br>
-Université Paris Dauphine-PSL<br>
-Place du Maréchal de Lattre de Tassigny, 75016 Paris, France<br>
-Room to be announced.
-
-## Getting there
-
-The campus is at Porte Dauphine, on the western edge of central Paris.
-
-- **Metro:** line 2, Porte Dauphine station.
-- **RER:** line C, Avenue Foch station.
-- **Tram and bus:** tram T3b and bus PC, Porte Dauphine stop.
-
-Plan your journey with the [RATP journey planner](https://www.ratp.fr/en/itineraires).
+Paris, France. Exact location to be announced.
 
 ## Format
 

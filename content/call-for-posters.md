@@ -2,7 +2,7 @@
 title: Call for posters
 ---
 
-We invite one-page abstracts for poster presentation on any topic within the scope below. The workshop is **non-archival**: work in progress, negative results, and work already published or under review elsewhere are all welcome. Abstracts are reviewed for fit with the workshop only. Students and early-career researchers are particularly encouraged to submit.
+We invite abstracts for poster presentation on any topic within the scope below. The workshop is **non-archival**: work in progress, negative results, and work already published or under review elsewhere are all welcome. Abstracts are reviewed for fit with the workshop only. Students and early-career researchers are particularly encouraged to submit.
 
 ## Scope
 
@@ -22,7 +22,7 @@ Out of scope:
 
 ## Format
 
-- **Submission:** one page, plus references.
+- **Submission:** an abstract of up to 300 words. For previously published work, you may instead submit the paper itself as a PDF (no page limit).
 - **Poster:** A0, portrait orientation.
 - Posters are presented during the lunch and poster session.
 
