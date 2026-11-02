@@ -9,7 +9,7 @@ Most updates are one-line edits to a data file. You don't need to touch the temp
 | To change…                                   | Edit                                   |
 |----------------------------------------------|----------------------------------------|
 | Workshop date, tagline, contact emails       | `hugo.toml` → `[params]`               |
-| Registration / abstract submission links     | `hugo.toml` → `registration_url`, `submission_url` (while `"#"`, buttons show "opens soon") |
+| Registration / abstract submission links     | `hugo.toml` → `registration_url`, `submission_url` (while `"#"`, buttons show "opens soon"). The site links to `/register/` and `/submit/`, which forward to these URLs, so shared links survive a change of form. |
 | Important dates (and "tentative" flags)      | `data/dates.yaml`                      |
 | Programme / schedule                         | `data/schedule.yaml`                   |
 | Invited speakers (and number still TBA)      | `data/speakers.yaml`                   |

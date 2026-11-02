@@ -1,6 +1,7 @@
-{{/* A call-to-action button. While the URL is "#" or empty it renders as a disabled "coming soon" button. */}}
+{{/* A call-to-action button. While the URL is "#" or empty it renders as a disabled "coming soon" button.
+     If `link` is given (a site path such as "register/"), the button points there instead of straight at the URL. */}}
 {{ if and .url (ne .url "#") }}
-  <a class="button" href="{{ .url }}">{{ .label }}</a>
+  <a class="button" href="{{ with .link }}{{ relURL . }}{{ else }}{{ $.url }}{{ end }}">{{ .label }}</a>
 {{ else }}
   <span class="button disabled" title="Link coming soon">{{ .label }} <small>(opens soon)</small></span>
 {{ end }}

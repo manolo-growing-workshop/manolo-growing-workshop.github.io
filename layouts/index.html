@@ -6,8 +6,8 @@
   {{ with site.Params.date_note }}<p class="note">({{ . }})</p>{{ end }}
   <p class="where">{{ site.Params.place }}</p>
   <p class="actions">
-    {{ partial "button.html" (dict "url" site.Params.registration_url "label" "Register") }}
-    {{ partial "button.html" (dict "url" site.Params.submission_url "label" "Submit a poster abstract") }}
+    {{ partial "button.html" (dict "url" site.Params.registration_url "link" "register/" "label" "Register") }}
+    {{ partial "button.html" (dict "url" site.Params.submission_url "link" "submit/" "label" "Submit a poster abstract") }}
   </p>
 </section>
 <article class="content">

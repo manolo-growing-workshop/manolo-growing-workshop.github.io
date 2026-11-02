@@ -1,0 +1,30 @@
+{{/* A short, stable URL (e.g. /register/) that forwards to the external form named by the page's `form` param
+     (a key in hugo.toml [params]). Change the form URL in hugo.toml and every shared link keeps working. */}}
+{{ $url := index site.Params .Params.form }}
+<!doctype html>
+<html lang="{{ site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>{{ .Title }} · {{ site.Title }}</title>
+  <link rel="icon" href="{{ "img/favicon.png" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{ if and $url (ne $url "#") }}
+  <meta http-equiv="refresh" content="0; url={{ $url }}">
+  <link rel="canonical" href="{{ $url }}">
+  {{ end }}
+</head>
+<body>
+  <main>
+    <article class="content">
+      <h1>{{ .Title }}</h1>
+      {{ if and $url (ne $url "#") }}
+      <p>Redirecting to the form… If nothing happens, <a href="{{ $url }}">open it here</a>.</p>
+      {{ else }}
+      <p>This form opens soon. See the <a href="{{ "/" | relURL }}">workshop website</a> for updates.</p>
+      {{ end }}
+    </article>
+  </main>
+</body>
+</html>
