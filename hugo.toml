@@ -14,8 +14,12 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   date = "7 December 2026"
   place = "Paris"
 
-  registration_url = "https://framaforms.org/registration-manolo-workshop-on-growing-neural-networks-1791993366"
-  submission_url = "https://framaforms.org/poster-abstract-manolo-workshop-on-growing-neural-networks-1791995101"
+  # Google Forms backups while Framaforms is down (see growing_workshop_misc/README.md).
+  # Framaforms originals, to switch back to:
+  #   registration_url = "https://framaforms.org/registration-manolo-workshop-on-growing-neural-networks-1791993366"
+  #   submission_url = "https://framaforms.org/poster-abstract-manolo-workshop-on-growing-neural-networks-1791995101"
+  registration_url = "https://docs.google.com/forms/d/e/1FAIpQLSe23BjIsfDnK4IB38eS4gsINzf15ehardxTNs_z3rcutE1fyA/viewform"
+  submission_url = "https://docs.google.com/forms/d/e/1FAIpQLScOKUBod-sIrzWsF_U5AWAoJeRVzYxZVnoZHjt5iY5riFyNYw/viewform"
 
   contact = ["manolo-growing-workshop@inria.fr"]
 
