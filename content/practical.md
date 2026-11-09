@@ -5,7 +5,8 @@ title: Practical info
 ## Date and venue
 
 **{{< param date >}}**<br>
-Paris, France. Exact location to be announced.
+[Le centre La Chapelle](https://www.pantheonsorbonne.fr/universite/projets/centre-chapelle)<br>
+1, avenue de la Porte de la Chapelle, 75018 Paris, France.
 
 ## Format
 
