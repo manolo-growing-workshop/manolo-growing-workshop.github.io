@@ -121,6 +121,23 @@ a:hover { text-decoration-thickness: 2px; }
 
 .muted { color: var(--muted); }
 
+/* Venue map */
+.venue-details { display: flow-root; }
+.venue-location { width: 260px; max-width: 100%; margin: 0 auto 24px; }
+.venue-location figcaption { margin-top: 8px; font-size: 0.85rem; text-align: center; }
+.venue-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+
+@media (min-width: 720px) {
+  .venue-location { float: right; margin: 0 0 20px 28px; }
+}
+
 /* Tables */
 table { border-collapse: collapse; width: 100%; }
 .dates th, .dates td { text-align: left; vertical-align: top; padding: 4px 12px 4px 0; }
