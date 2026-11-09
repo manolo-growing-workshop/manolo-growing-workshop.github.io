@@ -23,7 +23,7 @@ title: Practical info
 </figure>
 
 **{{< param date >}}**<br>
-[Université Paris 1 Panthéon-Sorbonne (Le centre La Chapelle)](https://www.pantheonsorbonne.fr/universite/projets/centre-chapelle)<br>
+[Université Paris 1 Panthéon-Sorbonne (Centre La Chapelle)](https://www.pantheonsorbonne.fr/universite/projets/centre-chapelle)<br>
 1, avenue de la Porte de la Chapelle, 75018 Paris, France.
 
 The venue is in the 18th arrondissement, on the Paris site of Campus Condorcet.

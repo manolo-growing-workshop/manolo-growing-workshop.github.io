@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   tagline = "How can a neural network keep learning when its architecture changes?"
   description = "A one-day workshop on growing neural networks and on optimization when the trainable architecture changes during training. Paris, December 2026."
   date = "7 December 2026"
-  place = "Université Paris 1 Panthéon-Sorbonne (Le centre La Chapelle)"
+  place = "Université Paris 1 Panthéon-Sorbonne (Centre La Chapelle)"
   address = "1, avenue de la Porte de la Chapelle, 75018 Paris, France."
 
   # Google Forms backups while Framaforms is down (see growing_workshop_misc/README.md).
